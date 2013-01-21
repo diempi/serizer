@@ -1,0 +1,128 @@
+            iNbEpisodes = 0;
+
+            for( i=1; i > 0; i++){
+                        if(oData.root.show.seasons[i]) {
+                            iNbSaison = i;
+            // nombre d’episode total
+                            iNbEpisodes = iNbEpisodes + oData.root.show.seasons[i].episodes;
+            //  tableau pour compter le nombre d’épisodes de la saison  
+                            aSaveSerie[i] = [];             
+            // dit que les episodes ne sont pas vu et je les comptes  i =la saison u = l’épisode  et je boucle jusqu’attend que je n’ai plus d’épisode pour cette saison avant de passer a la suivante
+             
+                            for (u = 1; u <= oData.root.show.seasons[i].episodes; u++){
+                                aSaveSerie[i][u] = false;
+                            }
+                        }
+                        else{
+                            i = -1;
+                        }
+                    }
+
+/* Serizer
+ * Application de gestion planning de séries
+ * Codé par Didier Gabiam
+ */
+
+/*jslint regexp: true, vars: true, white: true, browser: true */
+/*jshint nonstandard: true, browser: true, boss: true */
+/*global jQuery */
+
+( function ( $ ) {
+    "use strict";
+
+    // -- globals
+  var tTitle,
+      uImg,
+      tDesc,
+      tSe,
+      sUrl,
+      iSize,
+      i,
+      iNbEpisodes =0;  
+      
+      //tSe = $("#serie").val();
+    // -- methods
+  //var sUrl = 'http://api.betaseries.com/shows/display/Dexter.json?key=3FA361125EC3'; 
+    //var sUrl = 'http://api.betaseries.com/shows/search.json?key=3FA361125EC3&?title='+tSe;
+    // On récupère le nombre de saison(s)
+    Object.iSize = function(obj) {
+        var iSize = 0, key;
+        for (key in obj) {
+            if (obj.hasOwnProperty(key)) iSize++;
+        }
+        return iSize;
+    };
+    // On efface le contenu ajouter avant d'effectuer une nouvelle recherche    
+    var clearSearch = function(){
+      /*var sImg = $("#result img"),
+          sTitle = $(".title"),
+          sDesc = $(".desc"),
+          iSaison = $(".saison"),
+          iEpisode = $(".episode"),
+          tClean = $("#result");
+
+          tClean.removeChild(iEpisode).removeChild(iSaison).removeChild(sDesc).removeChild(sTitle).removeChild(sImg);
+          */ var tClean = $("#result").children.remove();
+          
+    };
+
+    // Fonction d'ajout d'une série 
+    var add_serie = function () {
+        // On ajoute la nouvelle série en local storage
+        var aMaSerie = {
+            sTitre : $(".title"),
+            sSaison : $(".saison"),
+            bStatut : true
+        };
+        window.localStorage.setItem('maserie', JSON.stringify(aMaSerie)); 
+        var res = JSON.parse(window.localStorage.getItem('maserie'));
+    };
+
+
+        // -- onload routines
+  $(document).bind("mobileinit", function(){
+      $.mobile.ajaxEnabled = true;//Active Ajax dans l'application
+      $.mobile.loadingMessageTextVisible = true;
+      $.mobile.loadingMessage = 'Serizing...';
+    });
+  $( function (e) {
+    //e.preventDefault();
+    $("#check").submit(clearSearch,function(){
+          tSe = $("#serie").val(),
+          sUrl = 'http://api.betaseries.com/shows/search.json?key=3FA361125EC3&title='+tSe+'';
+          //sUrl = 'http://api.betaseries.com/shows/display/'+tSe+'.json?key=3FA361125EC3';
+
+             $.ajax({
+              url:sUrl,
+              dataType: 'jsonp',
+              success: function(data){
+                console.log(data.root.shows);
+                $("img").attr("src",data.root.show.banner);
+                $(".title").append('<h2>'+data.root.show.title+'</h2>'),
+                $(".desc").append('<p>'+data.root.show.description+'</p>'),
+                $(".saison").append('<p>'+Object.iSize(data.root.show.seasons)+' saisons</p>');
+            // Fonction de calcul  des épisodes
+            
+            //console.log(Object.iSize(data.root.show.seasons));
+                for(i=1;i<=(Object.iSize(data.root.show.seasons));i++){
+                    if(data.root.show.seasons[i]){
+                    iNbEpisodes = iNbEpisodes + data.root.show.seasons[i].episodes;
+                    console.log(iNbEpisodes);
+                     }
+                    else{
+                      i = -1;
+                    }
+                }
+                $(".episode").append('<p>'+iNbEpisodes+' episodes</p>'),
+                $(".adder").attr("data-role","button").attr("data-inline","true").attr("data-theme","a").append('Ajouter');      
+      }
+    });
+          return false;
+        }
+      )
+        $(".adder").on("click",add_serie);
+
+    } );
+
+}( jQuery ) );
+                    

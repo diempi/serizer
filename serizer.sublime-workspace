@@ -1,0 +1,566 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"l",
+				"listview"
+			],
+			[
+				"s",
+				"slow"
+			],
+			[
+				"iN",
+				"iNbEpiVu"
+			],
+			[
+				"iEp",
+				"iNbEpiVu"
+			],
+			[
+				"fa",
+				"fadeOut"
+			],
+			[
+				"se",
+				"seas"
+			],
+			[
+				"sS",
+				"sSerieId"
+			],
+			[
+				"is",
+				"iSerieId"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"seas",
+				"seasons"
+			],
+			[
+				"episode",
+				"episodes"
+			],
+			[
+				"in",
+				"iNbEpisodes"
+			],
+			[
+				"inb",
+				"iNbEpisodes"
+			],
+			[
+				"iNb",
+				"iNbSeasons"
+			],
+			[
+				"da",
+				"data"
+			],
+			[
+				"es",
+				"episodes"
+			],
+			[
+				"sho",
+				"show"
+			],
+			[
+				"lo",
+				"localStorage"
+			],
+			[
+				"séri",
+				"série"
+			],
+			[
+				"ap",
+				"append"
+			],
+			[
+				"data",
+				"data-role"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"sa",
+				"seasons"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"episod",
+				"episodes"
+			],
+			[
+				"pr",
+				"preventDefault"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"icon-pl",
+				"icon-play"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"margin-to",
+				"margin-bottom"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"f",
+				"float"
+			],
+			[
+				"t",
+				"text-align"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"fn",
+				"font-family"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 5027,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/script.js",
+			"settings":
+			{
+				"buffer_size": 7293,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "styles/styles.css",
+			"settings":
+			{
+				"buffer_size": 382,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/git/serizer/boucle.txt",
+		"/C/Documents and Settings/All Users/Documents/kif/RIA/script corrige.js",
+		"/C/wamp/www/git/sjq/js/script.js",
+		"/C/Documents and Settings/Didier/Mes documents/Downloads/h5bp-html5-boilerplate-2279296/index.html",
+		"/C/DOCUME~1/Didier/LOCALS~1/Temp/Rar$DR01.890/conf/configuration.xml",
+		"/C/DOCUME~1/Didier/LOCALS~1/Temp/Rar$DR05.000/BetaSeries Exporter.bat",
+		"/C/DOCUME~1/Didier/LOCALS~1/Temp/Rar$DR04.500/BetaSeries Exporter.jar",
+		"/C/DOCUME~1/Didier/LOCALS~1/Temp/Rar$DR02.968/conf/loggingClient.properties",
+		"/C/wamp/www/jquery/formulaire/index.html",
+		"/C/wamp/www/jquery/formulaire/script.js",
+		"/C/wamp/www/git/serizer/post.php",
+		"/M/Temp/js/main.js",
+		"/C/wamp/www/jquery/formulaire/post.php",
+		"/C/wamp/www/git/serizer/serizer.sublime-project",
+		"/C/wamp/www/git/serizer/serizer.sublime-workspace",
+		"/C/wamp/www/git/pfe/html/djs.html",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/.htaccess",
+		"/C/wamp/www/git/pfe/html/podcasts.html",
+		"/C/wamp/www/git/pfe/html/signed_up.html",
+		"/C/wamp/www/git/pfe/html/login.html",
+		"/C/wamp/www/git/320andup.less",
+		"/C/wamp/www/ant/build.xml",
+		"/C/wamp/www/web2012/didiergabiam-pong-player/player/css/main.less",
+		"/C/wamp/www/web2012/didiergabiam-pong-player/player/js/main.js",
+		"/C/wamp/www/pfe/html/podcasts.html",
+		"/C/wamp/www/pfe/html/logged/upload.html",
+		"/C/wamp/www/pfe/html/logged/upload-classic.html",
+		"/C/wamp/www/pfe/html/logged/mix-uploaded.html",
+		"/C/wamp/www/pfe/html/login.html",
+		"/C/wamp/www/pfe/html/logged/mix-saved.html",
+		"/C/wamp/www/pfe/html/js/script.js",
+		"/C/wamp/www/web2012/didiergabiam-pong-player/player/index.html",
+		"/C/wamp/www/pfe/html/logged/upload-error.html",
+		"/C/wamp/www/pfe/html/djs.html",
+		"/C/wamp/www/pfe/html/css/main.css",
+		"/C/wamp/www/pfe/application/controllers/main.php",
+		"/C/wamp/www/pfe/application/views/index.php",
+		"/C/wamp/www/pfe/application/views/home.php",
+		"/C/wamp/www/pfe/application/config/autoload.php",
+		"/C/wamp/www/pfe/application/config/config.php",
+		"/C/wamp/www/pfe/application/views/responsive.php",
+		"/C/wamp/www/pfe/.htaccess",
+		"/C/wamp/www/pfe/application/errors/error_404.php",
+		"/C/wamp/www/pfe/application/config/routes.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/.htaccess 2",
+		"/C/wamp/www/pfe/application/config/database.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/routes.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/config.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/database.php",
+		"/C/wamp/www/sebio/index.html",
+		"/C/wamp/www/sebio/index-1.html",
+		"/C/wamp/www/sebio/css/main.css",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/autoload.php",
+		"/C/wamp/www/sebio/initializr/index.html",
+		"/C/wamp/www/sebio/responsive.html",
+		"/C/wamp/www/sebio/README.md",
+		"/C/Documents and Settings/Didier/Mes documents/Cours/2012-13/initializr-verekia-4.0/sebio/index.html",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/settings.php",
+		"/J/LUNDI - VENDREDI/settings.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/infos.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/c.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/langue.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/.htaccess 3",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/.htaccess 4",
+		"/C/wamp/www/linxer/application/config/database.php",
+		"/C/wamp/www/linxer/application/config/config.php",
+		"/C/wamp/www/linxer/application/config/routes.php",
+		"/C/Documents and Settings/Didier/Mes documents/GitHub/linxer/application/controllers/site.php",
+		"/C/Documents and Settings/Didier/Mes documents/GitHub/linxer/application/views/vueUpdate.php",
+		"/C/Documents and Settings/Didier/Mes documents/GitHub/linxer/application/views/listeLiens.php",
+		"/C/Documents and Settings/Didier/Mes documents/GitHub/linxer/application/models/liensModele.php",
+		"/C/wamp/www/linkser-old/application/controllers/site.php",
+		"/C/wamp/www/linkser-old/application/views/listeLiens.php",
+		"/C/wamp/www/linkser-old/application/config/config.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/site.php",
+		"/C/wamp/www/linkser-old/application/models/liensModele.php",
+		"/C/wamp/www/linkser-old/application/controllers/main.php",
+		"/C/wamp/www/linkser-old/application/models/members.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/index.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/single.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/category.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/archive.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/sidebar.php",
+		"/C/Documents and Settings/Didier/Mes documents/Downloads/MasutolisoMagazine/MasutolisoMagazine/includes/banners.php",
+		"/C/Documents and Settings/Didier/Mes documents/Downloads/MasutolisoMagazine/MasutolisoMagazine/sidebar.php",
+		"/C/Documents and Settings/Didier/Mes documents/Downloads/MasutolisoMagazine/MasutolisoMagazine/index.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/slide.css",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/reset.css",
+		"/J/LUNDI - VENDREDI/.htaccess",
+		"/C/Documents and Settings/Didier/Mes documents/GitHub/Linxer2013/application/models/liensmodele.php",
+		"/C/Documents and Settings/Didier/Mes documents/GitHub/Linxer2013/application/views/confirm.php",
+		"/C/Documents and Settings/Didier/Mes documents/GitHub/Linxer2013/application/controllers/site.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/layout.php",
+		"/J/LUNDI - VENDREDI/database.php",
+		"/J/LUNDI - VENDREDI/config.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/page-contact.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/functions.php",
+		"/C/wamp/www/projet-riia/Cours 5 - GeÌoloc & Google Maps/js/script.js",
+		"/C/wamp/www/ci/application/models/liensModele.php",
+		"/C/Documents and Settings/Didier/.ssh/id_rsa.pub",
+		"/C/Documents and Settings/Didier/.ssh/id_rsa",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/style.css",
+		"/M/ubuntu/wp/portfolio/wp-content/themes/portfolio/functions.php",
+		"/M/ubuntu/wp/portfolio/wp-content/themes/portfolio/single-works.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/single-works.php",
+		"/C/wamp/www/web2012/wp/portfolio/wp-config.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/wp-config.php",
+		"/J/Temp/js/vendor/style.less",
+		"/C/Documents and Settings/Didier/Bureau/rss.xml",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/header.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/404.php",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/robots.txt",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/sprite-dg.png",
+		"//Djemiliot-ltp/Users/DJ Emiliot/AppData/Local/Avid/Torq/Playlists/Session Playlist 10-02-12.M3U",
+		"//Djemiliot-ltp/Users/DJ Emiliot/AppData/Local/Avid/Torq/Playlists/Session Playlist 09-30-12.M3U",
+		"//Djemiliot-ltp/Users/DJ Emiliot/AppData/Local/Avid/Torq/Playlists/Session Playlist 10-04-12.M3U",
+		"/J/Temp/js/vendor/style.css",
+		"/C/wamp/www/web2012/portfolio/css/main.less",
+		"/C/Documents and Settings/Didier/Local Settings/Temp/fz3temp-1/style.less",
+		"/C/Documents and Settings/Didier/Bureau/thememdav2/header.php"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"new",
+			"info",
+			"series",
+			"console",
+			"uIm",
+			"select",
+			"					<li><a href=\"#account\" title=\"Mon compte\" data-role=\"button\" data-transition=\"slide\">Mon compte</a></li>",
+			"tSe",
+			"oData",
+			"data",
+			"size",
+			"());",
+			"text",
+			"font-f",
+			"<a href=\"#\" title=\"Play\">Play</a>",
+			">dislike icon-thumbs-down<",
+			">like icon-thumbs-up<",
+			"dislike icon-thumbs-up",
+			"like",
+			"auth",
+			"base",
+			"thum",
+			"my girl",
+			"mindl",
+			"lemme",
+			"timbalan",
+			"maino",
+			"17"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"sSearch",
+			"data",
+			"oData",
+			"<div class=\"mask icon-play\"></div>",
+			"><",
+			"dislike icon-thumbs-down",
+			"like icon-thumbs-up"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 5027,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3202,
+								3202
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 526.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/script.js",
+					"settings":
+					{
+						"buffer_size": 7293,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7171,
+								7171
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 111.0,
+						"translation.y": 1253.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "styles/styles.css",
+					"settings":
+					{
+						"buffer_size": 382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								380,
+								380
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 103.0,
+	"status_bar_visible": true
+}

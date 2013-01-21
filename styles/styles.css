@@ -1,0 +1,30 @@
+/* Serizer
+ * Applications de gestions de planning de séries
+ * Codé par Didier GABIAM -> Diempi
+ * 
+ */
+
+ img{
+ 	max-width: 100%;
+ 	height: auto;
+ }
+
+ #bottom .ui-btn{ 
+ 		height: 50px !important; 
+ 	}
+
+ #top { 
+ 		height: 40px !important; 
+ 	}
+
+ #bottom .ui-btn-text, #top h1{
+ 	font-size: 100% !important;
+ }
+
+ nav li{
+ 	line-height: 2.5;
+ }
+
+#planning h1{
+	text-align: center;
+}
