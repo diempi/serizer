@@ -70,7 +70,7 @@
 		</section><!-- header -->
 
 		<section data-role="content">
-			<form id="check" method="POST">
+			<form id="check" method="GET">
 				<label for="serie_search"><input type="search" placeholder="Rechercher une série" id="serie" name="serie_search"></label>
 				<input type="submit" value="Envoyer">
 			</form>

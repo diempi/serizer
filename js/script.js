@@ -15,6 +15,7 @@
       iNbSeasons,
       iNbSeries,
       iNbEpiVu = 0,
+      sPlanning,
       sSearch,
       sUrl,
       sSerie,
@@ -39,12 +40,26 @@
   $( function (e) {
     // Splash Screen
     $(function() {
-      setTimeout(hideSplash, 2000);
+      setTimeout(hideSplash, 3000);
       });
 
     function hideSplash() {
       $.mobile.changePage("#planning", "fade");    
     }
+
+    //Planning des séries
+
+    $("#planning").click(function(){
+      sPlanning = 'http://api.betaseries.com/planning/incoming.json?key=3FA361125EC3';
+
+      $.ajax({
+              url:sPlanning,
+              dataType: 'jsonp',
+              success: function(data){
+                console.log(data.root.planning);
+            }
+          });
+      })
     //Lors de l'envoi de la recherche on affiche le résultat
     $("#check").submit(
       function(){
@@ -95,7 +110,7 @@
                                 iNbSeasons = data.root.seasons.length;
                                 //(data.root.seasons.length)
                                 // bouton d'ajout'
-                                $("#serieinfos").append('<a href="#" data-role="button" id="follow" data-icon="check">Ajouter</a>');
+                                $("#newserie #top").append('<a href="" data-role="button" id="follow" data-icon="check">Ajouter</a>');
 
                                 //On récupère les saisons
                                 for(i=0; i<iNbSeasons; i++)
