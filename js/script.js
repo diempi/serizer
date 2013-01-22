@@ -37,6 +37,14 @@
       $('select').slider();
     });
   $( function (e) {
+    // Splash Screen
+    $(function() {
+      setTimeout(hideSplash, 2000);
+      });
+
+    function hideSplash() {
+      $.mobile.changePage("#planning", "fade");    
+    }
     //Lors de l'envoi de la recherche on affiche le résultat
     $("#check").submit(
       function(){
@@ -48,7 +56,7 @@
               url:sUrl,
               dataType: 'jsonp',
               success: function(data){
-                console.log(data);
+              /*  console.log(data);
                 if(data.root.shows.length === 0)
                 {
                   if(data.root.errors.error.code  === '4001'){
@@ -58,7 +66,7 @@
                 else
                 {
 
-                
+                */
                 // on récupère le nombre de séries trouvées
                 iNbSeries = data.root.shows.length;
 
@@ -87,7 +95,7 @@
                                 iNbSeasons = data.root.seasons.length;
                                 //(data.root.seasons.length)
                                 // bouton d'ajout'
-                                $("#serieinfos").append('<li><a href="#" data-inline="true" data-theme="b" id="follow" data-icon="check">Ajouter</a></li>');
+                                $("#serieinfos").append('<a href="#" data-role="button" id="follow" data-icon="check">Ajouter</a>');
 
                                 //On récupère les saisons
                                 for(i=0; i<iNbSeasons; i++)
@@ -101,6 +109,7 @@
                                     $('#serieinfos #saison'+(i+1)+'').append('<li class="episod">Episode'+(j+1)+': '+(data.root.seasons[i].episodes[j].title)+'</li>');
                                     // On sauvegarde dans un tableau
                                     aEpisode[j] = data.root.seasons[i].episodes[j].title;
+                                    console.log('Episode'+j+': '+aEpisode[j]);
                                   }
                                 }  
                                 $.mobile.hidePageLoadingMsg();
@@ -108,7 +117,7 @@
                                 
                                 // Sauve garde en localStorage
                                 $("#follow").click(function(){
-                                    if (window.localStorage){
+                                    if (localStorage){
                                              // Le navigateur supporte le localStorage
                                           // On ajoute la nouvelle série en local storage
                                           var aMaSerie = {
@@ -121,8 +130,8 @@
                                             'ID de la série': iS,
                                             'Infos Série': aMaSerie
                                           };
-                                          window.localStorage.setItem('maserie', JSON.stringify(aSerie)); 
-                                          var res = JSON.parse(window.localStorage.getItem('maserie'));
+                                          localStorage.setItem('maserie', JSON.stringify(aSerie)); 
+                                          var res = JSON.parse(localStorage.getItem('maserie'));
                                           iS++;
                                           // On ajoute la série à la liste
                                           $("#new").append('<li>'+data.root.seasons[0].episodes[0].show+'</li>');
@@ -141,7 +150,7 @@
                     }); // fin d'ajout de sinformations de la série  
                  
                   });    
-                }
+                /*}*/
               }
               });
              $("#check").fadeOut("slow");

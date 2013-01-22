@@ -18,6 +18,11 @@
 
 	</head>
 	<body>
+	<div data-role="page"  id="splash"> 
+	    <section class="splash" data-role="content" data-theme="b">
+	        <img src="./img/logoserizer2.png" alt="splash" />
+	    </section>	    
+	</div><!-- Splashscreen -->
 	<div id="planning" data-role="page">
 		<section id="top" data-role="header" data-theme="b" data-position="fixed">
 			<h1>Serizer</h1>
